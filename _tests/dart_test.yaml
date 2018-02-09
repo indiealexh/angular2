@@ -1,0 +1,6 @@
+presets:
+  travis:
+    exclude_tags: known_pub_serve_failure
+tags:
+  # Tests that fail with pub serve/pub run test.
+  known_pub_serve_failure:
